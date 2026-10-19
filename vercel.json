@@ -1,3 +1,9 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/b/foto", "destination": "/index.html" },
+    { "source": "/b/video", "destination": "/video.html" },
+    { "source": "/b/zap", "destination": "/zap.html" },
+    { "source": "/b/kit", "destination": "/kit.html" }
+  ]
 }
